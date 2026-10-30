@@ -1,0 +1,108 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI;
+}
+
+body{
+display:flex;
+background:#02152c;
+color:white;
+}
+
+.sidebar{
+width:250px;
+height:100vh;
+background:#061325;
+padding:20px;
+}
+
+.sidebar h1{
+margin-bottom:30px;
+}
+
+.sidebar a{
+display:block;
+padding:15px;
+margin:10px 0;
+border:1px solid #1fa2ff;
+border-radius:12px;
+text-decoration:none;
+color:white;
+}
+
+.sidebar a:hover{
+background:#1fa2ff;
+}
+
+.main{
+flex:1;
+padding:40px;
+}
+
+.header h4{
+color:#42b8ff;
+letter-spacing:4px;
+}
+
+.header h1{
+margin-top:10px;
+margin-bottom:30px;
+}
+
+.cards{
+display:flex;
+gap:20px;
+margin-bottom:30px;
+}
+
+.card{
+background:#0d2848;
+padding:25px;
+width:250px;
+border-radius:20px;
+border:1px solid #1fa2ff;
+}
+
+.active{
+border-color:#00ff99;
+}
+
+.maintenance{
+border-color:orange;
+}
+
+.reserve{
+border-color:#54b8ff;
+}
+
+.welcome{
+background:#0b2343;
+padding:30px;
+border-radius:20px;
+margin-bottom:30px;
+}
+
+.welcome h2{
+margin-bottom:15px;
+}
+
+.fleet{
+width:100%;
+border-collapse:collapse;
+background:#0b2343;
+border-radius:10px;
+overflow:hidden;
+}
+
+.fleet th{
+background:#163961;
+padding:15px;
+}
+
+.fleet td{
+padding:12px;
+border:1px solid #1fa2ff;
+text-align:center;
+}
